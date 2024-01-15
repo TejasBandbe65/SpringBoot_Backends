@@ -1,0 +1,24 @@
+2024-01-15 09:25:35 [main] INFO  com.cms.CmsApplication - Starting CmsApplication v0.0.1-SNAPSHOT using Java 11.0.19 on DESKTOP-DO0GEUD with PID 9544 (E:\janu\web-development-projects\Content-Management-Project\backend\CMS\target\CMS-0.0.1-SNAPSHOT.jar started by USER in E:\janu\web-development-projects\Content-Management-Project\backend\CMS\target)
+2024-01-15 09:25:35 [main] INFO  com.cms.CmsApplication - The following 1 profile is active: "prod"
+2024-01-15 09:25:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-15 09:25:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 133 ms. Found 4 JPA repository interfaces.
+2024-01-15 09:25:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-01-15 09:25:42 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-01-15 09:25:42 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2024-01-15 09:25:42 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-01-15 09:25:42 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6277 ms
+2024-01-15 09:25:42 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-15 09:25:43 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+2024-01-15 09:25:44 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-01-15 09:25:44 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-01-15 09:25:46 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-01-15 09:25:46 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2024-01-15 09:25:52 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-01-15 09:25:52 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-15 09:25:55 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-15 09:25:56 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@f0a66bd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@460b50df, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c9c6245, org.springframework.security.web.header.HeaderWriterFilter@46039a21, org.springframework.web.filter.CorsFilter@1cf336fd, org.springframework.security.web.authentication.logout.LogoutFilter@9301672, com.cms.security.JWTRequestFilter@791cbf87, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d4fb213, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ef60295, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1d0cac30, org.springframework.security.web.session.SessionManagementFilter@4da39ca9, org.springframework.security.web.access.ExceptionTranslationFilter@2ffb3aec, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@71370fec]
+2024-01-15 09:25:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-01-15 09:25:57 [main] INFO  com.cms.CmsApplication - Started CmsApplication in 23.325 seconds (JVM running for 25.004)
+2024-01-15 09:26:19 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-15 09:26:19 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-01-15 09:26:27 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
